@@ -1,0 +1,61 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:20px
+}
+
+/* .wrapper button {
+  padding: 10px 20px;
+  background: #614101;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+} */
+
+.single-selection{
+  padding: 10px 20px;
+  background: rgb(213, 248, 213);
+  color: #69c76c;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.multi-selection{
+  padding: 10px 20px;
+  background: rgb(51, 139, 240);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.accordion {
+  width: 500px;
+}
+
+.item {
+  background: #614101;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.title {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content {
+  color: #ffffff;
+  height: auto;
+}
+
+
