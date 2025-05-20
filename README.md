@@ -1,3 +1,3 @@
 # React-Projects
 
-# working on project 1
+# project 1 (Accrodion Component)
