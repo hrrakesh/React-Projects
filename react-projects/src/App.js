@@ -1,6 +1,7 @@
 import './App.css';
+import StarRating from './components/star-slider';
 // import Accordion from './components/accordion';
-import RandomColor from './components/random-color';
+// import RandomColor from './components/random-color';
 
 function App() {
   return (
@@ -8,10 +9,11 @@ function App() {
      
       {/* Accordion component */}
       {/* <Accordion/> */}
-
-
       {/* Random color component  */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+
+      {/* star slider  */}
+      <StarRating noOfStars={5}/>
     </div>
   );
 }
